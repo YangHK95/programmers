@@ -6,5 +6,5 @@ function solution(a, b) {
    // }else{
    //     return result
    // }
-    return Math.max((Number(`${a}${b}`)),(Number(`${b}${a}`)))
+    return Math.max(Number(`${a}${b}`),Number(`${b}${a}`))
 }
