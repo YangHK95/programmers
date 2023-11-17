@@ -1,14 +1,14 @@
 function solution(num_list) {
     let str = num_list.toString()
-    let sum = ""
-    let sum2 = ""
+    let odd = ""
+    let even = ""
     for( i = 0; i < str.length ; i++){
        if(str[i] % 2 == 1){
-         sum += str[i] 
+         odd += str[i] 
        }
        if(str[i] % 2 == 0) {
-          sum2 += str[i]
+          even += str[i]
        }
     }
-    return Number(sum) + Number(sum2)
+    return Number(odd) + Number(even)
 }
